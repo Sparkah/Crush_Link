@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{910806FC-E88D-A769-2F53-14C035760B08}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChameleonTower.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TowerController.cs" Line="8" Column="27" />
+      <File FileName="Assets/Scripts/ChameleonTower.cs" Line="75" Column="14" />
+      <File FileName="Assets/Scripts/EnemyController.cs" Line="33" Column="15" />
+      <File FileName="Assets/SO/ChamilionTowerSO.cs" Line="10" Column="2" />
+      <File FileName="Assets/ChangeTowerLevelCanvas.cs" Line="25" Column="28" />
+      <File FileName="Assets/Scripts/EnemySpawner.cs" Line="1" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="931f2062-4104-4f40-98d8-3935a6c5da71" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
