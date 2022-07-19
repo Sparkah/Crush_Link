@@ -29,8 +29,18 @@ public class EnemyController : MonoBehaviour
         _healthBar.fillAmount -= damage / _initialHealth;
         if (health <= 0)
         {
-            transform.position += new Vector3(0, 0, 10f);
-            //gameObject.SetActive(false);
+            StartCoroutine(TravelFastToEscapeZone());
+            gameObject.GetComponentInChildren<MeshRenderer>().enabled = false;
         }
+    }
+    IEnumerator TravelFastToEscapeZone()
+    {
+        if(gameObject.transform.position.x<-100||gameObject.transform.position.z>100)
+        {
+            Destroy(gameObject);
+        }
+        yield return new WaitForSeconds(0.01f);
+        transform.position += new Vector3(-5f, 0, 5f);
+        StartCoroutine(TravelFastToEscapeZone());
     }
 }
